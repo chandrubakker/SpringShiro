@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+/* DataTable Styles*/
+.column-0 {
+	text-align: justify;
+}
+
+.column-1 {
+	text-align: center;
+}
+
+/* Loading dialog */
+#loadingModal>.modal-dialog{
+	padding-top: 10%
+}

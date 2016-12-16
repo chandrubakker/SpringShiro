@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/decorators/">
+
+	<excludes>
+		<pattern>/users</pattern>
+	</excludes>
+
+	<decorator name="global" page="global.jsp">
+		<pattern>/</pattern>
+		<pattern>/login</pattern>
+		<pattern>/logout</pattern>
+		<pattern>/unauthorized</pattern>
+	</decorator>
+	
+	<decorator name="admin" page="admin.jsp">
+		<pattern>/success</pattern>
+		<pattern>/admin/**</pattern>
+		<pattern>/lab/**</pattern>
+	</decorator>
+
+</decorators>
